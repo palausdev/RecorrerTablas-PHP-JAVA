@@ -1,7 +1,7 @@
 <?php
 $servername = "127.0.0.1";
 $username = "root";
-$password = "P@ssword12";
+$password = "";
 $dbname = "components";
 $sql = "SELECT * FROM filas";
 $php = "php";

@@ -8,7 +8,7 @@ public class InserirFiles {
         // Establecer los parámetros de conexión a la base de datos
         String servername = "127.0.0.1";
         String username = "root";
-        String password = "P@ssword12";
+        String password = "";
         String dbname = "components";
 
         String url = "jdbc:mysql://" + servername + ":" + "/" + dbname;
