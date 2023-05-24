@@ -32,12 +32,13 @@ while ($row = mysqli_fetch_array($files, MYSQLI_NUM)) {
 
 $tempsFinal = microtime(true);
 $tempsTotal = $tempsFinal - $tempsInici;
+$tempsTotalTruncat = number_format($tempsTotal, 2);
 
 echo "<br>";
 echo "<br>";
 echo "Temps tardat: " . $tempsTotal . " segons";
 
-$sqlTemps = "INSERT INTO components(Llenguatge, Data, Temps) VALUES ('$php','$data','$tempsTotal')";
+$sqlTemps = "INSERT INTO components(Llenguatge, Data, Temps) VALUES ('$php','$data','$tempsTotalTruncat')";
 
 //echo $sqlTemps;
 echo "<br>";
