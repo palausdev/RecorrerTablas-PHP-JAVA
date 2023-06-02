@@ -40,7 +40,7 @@ $dbname = "components"; <-- El nombre de vuestra base de datos
 
 
 ## Importar Proyecto en JetBrains
-![AbrirProyectoJetBrains](https://cdn.discordapp.com/attachments/1018818223749210123/1114171794207817839/0602.gif)
+![AbrirProyectoJetBrains](readme/0602.gif)
 
 ## Importar Libreria en JetBrains
 ![ImportarLibreriaJetBrains](https://cdn.discordapp.com/attachments/718875492744298569/1114129552562716682/0602_1_.gif)
