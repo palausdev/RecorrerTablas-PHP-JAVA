@@ -1,5 +1,8 @@
 # RecorrerTablasSQL-PHP-JAVA
 
+## README Lenguages
+[English Readme](README.en.md)
+
 ## Descripción
 Pequeño programa con PHP y JAVA para poder recorrer e insertar filas con tan solo una acción.
 
