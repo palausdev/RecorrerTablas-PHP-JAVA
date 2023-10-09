@@ -63,5 +63,5 @@ $dbname = "components"; <-- El nombre de vuestra base de datos
 
 ## Support
 
-Si necesitas ayuda, envíame un mensaje en discord **palaus#4531**.
+Si necesitas ayuda, envíame un mensaje en discord **@palaus**.
 
