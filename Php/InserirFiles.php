@@ -26,7 +26,7 @@ $values = rtrim($values, ",");
 
 $sql = "INSERT INTO filas(Valor, Random) VALUES $values";
 
-// Executar la consulta SQL 
+// Executar la consulta SQL.
 if ($conn->query($sql) === TRUE) {
     echo "Insertades 100,000 files en a la taula files.";
 } else {
