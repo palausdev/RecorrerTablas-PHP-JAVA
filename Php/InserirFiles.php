@@ -21,7 +21,7 @@ for ($i = 1; $i <= 100000; $i++) {
     $values .= "($valor, $random),";
 }
 
-// Eliminar la ultima coma del string $values 
+// Eliminar la ultima coma del string $values
 $values = rtrim($values, ",");
 
 $sql = "INSERT INTO filas(Valor, Random) VALUES $values";
